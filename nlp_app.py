@@ -34,8 +34,12 @@ categories = ['alt.atheism', 'soc.religion.christian',
 
 # Load the files matching those categories
 
-twenty_train = fetch_20newsgroups(subset='train',
-     categories=categories, shuffle=True, random_state=42)
+@st.cache(allow_output_mutation=False) # Set to true to recieve no warnings
+def dataset():
+    """Loads once then cached for subsequent runs"""
+    twenty_train = fetch_20newsgroups(subset='train',
+        categories=categories, shuffle=True, random_state=42)
+    return twenty_train    
 
 
 def homepage():
