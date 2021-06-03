@@ -3,7 +3,7 @@
 # Author: Steven Carter
 # NLP -- Text Classification #
 
-# Reference: https://towardsdatascience.com/machine-learning-nlp-text-classification-using-scikit-learn-python-and-nltk-c52b92a7c73a
+# Reference: https://www.kaggle.com/faressayah/20-news-groups-classification-prediction-cnns#%F0%9F%A4%96-Machine-Learning
 # Reference: https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
 
 # Import Required Packages
@@ -38,9 +38,12 @@ twenty_train = fetch_20newsgroups(subset='train',
      categories=categories, shuffle=True, random_state=42)
 
 
-st.beta_expander("NLP Objectives")
+with st.beta_expander("NLP Objectives"):
+    # Add the objectives for the app
+    st.write('1. Document Classification')
+    st.write('2. Text Pre-Processing')
+    st.write('3. Feature Extraction')
+    st.write('4. Vocabulary Creation')
 
-
-
-
-
+with st.beta_expander("Vocabulary & Data Extraction"):
+    
