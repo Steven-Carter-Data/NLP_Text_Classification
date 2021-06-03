@@ -1,3 +1,3 @@
-# NLP_Mood_Detection
+# NLP_Text_Classification
 
-This repo is for utilizing NLP techniques and recognizing emotion from the given dataset.
+This repo is for utilizing NLP techniques for text classification.
