@@ -45,4 +45,5 @@ def homepage():
         st.write('2. Text Pre-Processing')
         st.write('3. Feature Extraction')
         st.write('4. Vocabulary Creation')
+    return homepage()
         
