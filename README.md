@@ -1,3 +1,3 @@
 # NLP_Text_Classification
 
-This repo is for utilizing NLP techniques for text classification.
+This streamlit app is for learning more about NLP techniques and machine learning for text classification.
