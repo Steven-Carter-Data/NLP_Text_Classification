@@ -38,12 +38,11 @@ twenty_train = fetch_20newsgroups(subset='train',
      categories=categories, shuffle=True, random_state=42)
 
 
-with st.beta_expander("NLP Objectives"):
+def homepage():
+    with st.beta_expander("NLP Objectives"):
     # Add the objectives for the app
-    st.write('1. Document Classification')
-    st.write('2. Text Pre-Processing')
-    st.write('3. Feature Extraction')
-    st.write('4. Vocabulary Creation')
-
-with st.beta_expander("Vocabulary & Data Extraction"):
-    
+        st.write('1. Document Classification')
+        st.write('2. Text Pre-Processing')
+        st.write('3. Feature Extraction')
+        st.write('4. Vocabulary Creation')
+        
