@@ -124,6 +124,6 @@ involve environmental problems that those that do not''')
 
 fig = px.bar(train)
 
-st.plotly_chart(fig)
+st.plotly_chart(fig) # can't get the chart to show up
 
 
