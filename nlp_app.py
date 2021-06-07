@@ -3,6 +3,7 @@
 # Author: Steven Carter
 # NLP -- Reports & News Classification #
 
+# Reference: https://www.kaggle.com/vbmokin/er-envprobl-nlp-bag-of-words-tf-idf-glove
 # Reference: https://www.kaggle.com/faressayah/20-news-groups-classification-prediction-cnns#%F0%9F%A4%96-Machine-Learning
 # Reference: https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
 
